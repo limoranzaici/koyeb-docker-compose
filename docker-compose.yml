@@ -54,7 +54,7 @@ services:
      network_mode: host
      environment:
          - TZ=Asia/Shanghai
-     command: tunnel --edge-ip-version auto --protocol quic --heartbeat-interval 10s run --token [YOUR_ARGO_TOKEN]
+     command: tunnel --edge-ip-version auto --protocol quic --heartbeat-interval 10s run --token eyJhIjoiYWI0ZjQ5YjVjNjJhZDQ4MmM1MmYzZjA2Nzg3OTQ0M2UiLCJ0IjoiYmJkYmU1Y2MtYWJiMy00ZTcxLWI1ZWYtYWY4Y2FhMzEzYTljIiwicyI6Ik1USTBZV05pWVRBdE9EVTBPQzAwTlRBNExXSmlOV0V0TnpRNFpXRXlZakF5TW1JNCJ9
      container_name: cloudflared
      image: cloudflare/cloudflared:latest    
 
