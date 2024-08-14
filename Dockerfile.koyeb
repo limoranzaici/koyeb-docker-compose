@@ -1,1 +1,3 @@
+FROM limoranzaici/docker-compose
 
+COPY . /app
