@@ -26,7 +26,7 @@ services:
       - --spring.r2dbc.password=VAK27UEenN6FDM
       - --spring.sql.init.platform=postgresql
       # 外部访问地址，请根据实际需要修改
-      - --halo.external-url=https://xxxx.com
+      - --halo.external-url=https://www.cxkun.top
   
   halodb:
     image: postgres:latest
