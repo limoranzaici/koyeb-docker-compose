@@ -6,7 +6,7 @@ services:
     restart: on-failure:3
   openfrp:
      restart: always
-     u:f065a2a51dd2d5f3706aad912b01261a
-     p:663842
+     u: f065a2a51dd2d5f3706aad912b01261a
+     p: 663842
      container_name: openfrp
      image: openfrp/frpc:latest
