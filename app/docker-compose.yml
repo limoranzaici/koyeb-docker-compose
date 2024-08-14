@@ -4,8 +4,7 @@ services:
     image: btpanel/baota:latest
     container_name: baota
     restart: on-failure:3
-    depends_on:
-     cloudflared:
+  cloudflared:
      restart: always
      network_mode: host
      environment:
